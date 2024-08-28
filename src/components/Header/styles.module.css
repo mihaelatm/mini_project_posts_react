@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3f5cc0;
+  padding: 38px 626px 38px 130px;
+  gap: 368px;
+}
+
+.nav {
+  display: flex;
+  gap: 60px;
+}
+
+.nav a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(9, 8, 8, 0.8);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  padding-right: 60px;
+  height: 38px;
+}
+
+.nav a:last-child {
+  border-right: none;
+}
